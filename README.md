@@ -1,9 +1,9 @@
 # Loop for iOS
 
-![App Icon](/Loop/Assets.xcassets/AppIcon.appiconset/40%402x.png?raw=true) ![WatchApp Icon](/WatchApp/Assets.xcassets/AppIcon.appiconset/watch-40%402x.png?raw=true)
+![App Icon](/Loop/Assets.xcassets/AppIcon.appiconset/Icon-40%402x.png?raw=true) ![WatchApp Icon](/WatchApp/Assets.xcassets/AppIcon.appiconset/watch-40%402x.png?raw=true)
 
-[![Build Status](https://travis-ci.org/loudnate/Loop.svg?branch=master)](https://travis-ci.org/loudnate/Loop)
-[![Join the chat at https://gitter.im/loudnate/LoopKit](https://badges.gitter.im/loudnate/LoopKit.svg)](https://gitter.im/loudnate/LoopKit?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Build Status](https://travis-ci.org/LoopKit/Loop.svg?branch=master)](https://travis-ci.org/LoopKit/Loop)
+[![Join the chat at https://gitter.im/LoopKit/LoopKit](https://badges.gitter.im/LoopKit/LoopKit.svg)](https://gitter.im/LoopKit/LoopKit?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Loop is an app template for building an artificial pancreas. It is a stone resting on the boulders of work done by [@bewest](https://github.com/bewest/decoding-carelink), [@ps2](https://github.com/ps2/rileylink) and many others.
 
@@ -72,17 +72,19 @@ Bluetooth LE communication with Minimed pumps is enabled by the [RileyLink](http
 
 ### LoopKit
 
-Loop is built on top of [LoopKit](https://github.com/loudnate/LoopKit). LoopKit is a set of frameworks that provide data storage, retrieval, and calcluation, as well as boilerplate view controllers used in Loop.
+Loop is built on top of [LoopKit](https://github.com/LoopKit/LoopKit). LoopKit is a set of frameworks that provide data storage, retrieval, and calcluation, as well as boilerplate view controllers used in Loop.
 
 # Getting Started
 
 Fork and clone this repository so you can commit the changes you'll make below.
 
+[Sign up for the Loop Users announcement list](https://groups.google.com/forum/#!forum/loop-ios-users) to stay informed of critical issues that may arise.
+
 ## Assigning a Bundle Identifier
 
 [![Assigning a bundle identifier](/Documentation/Assigning%20a%20bundle%20identifier.png?raw=true)](/Documentation/Assigning%20a%20bundle%20identifier.png)
 
-In the Loop project's Build Settings, change the value of `MAIN_APP_BUNDLE_IDENTIFIER` to something unique. Usually this means replacing `com.loudnate` with a reverse-domain name of your choosing.
+Open `Loop.xcodeproj` in Xcode. In the Project Navigator on the left-hand side, open `Loop.xcconfig`. Change the value of `MAIN_APP_BUNDLE_IDENTIFIER` to a unique reverse-domain name of your choosing.
 
 ## Installing Carthage
 
@@ -101,7 +103,7 @@ Loop optionally supports select third-party remote services, which are configure
 
 # Making it Your Own
 
-[Please visit the Wiki for more info on customizing the app](https://github.com/loudnate/Loop/wiki/Personalizing-Your-App-Name-&-Icon)
+[Please visit the Wiki for more info on customizing the app](https://github.com/LoopKit/Loop/wiki/Personalizing-Your-App-Name-&-Icon)
 
 # License and Code of Conduct
 
